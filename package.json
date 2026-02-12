@@ -1,0 +1,27 @@
+
+{
+  "name": "athena-surveillance",
+  "version": "1.0.0",
+  "description": "Application de surveillance hors-ligne",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild index.tsx --bundle --minify --sourcemap --outfile=dist/bundle.js --loader:.tsx=tsx --loader:.ts=ts --define:process.env.NODE_ENV=\\\"production\\\" && cp index.html manifest.json sw.js dist/ && sed -i 's/index.tsx/bundle.js/g' dist/index.html",
+    "cap-sync": "npx cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/cli": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/haptics": "^6.0.0",
+    "@capacitor/status-bar": "^6.0.0",
+    "lucide-react": "^0.454.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "xlsx": "^0.18.5",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.8.2"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.0"
+  }
+}

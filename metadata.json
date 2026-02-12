@@ -1,0 +1,7 @@
+{
+  "name": "Athena Surveillance",
+  "description": "Système d'enregistrement hors ligne pour le contrôle d'accès des visiteurs et des véhicules, avec export PDF et Excel.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

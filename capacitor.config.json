@@ -1,0 +1,9 @@
+
+{
+  "appId": "com.athena.surveillance",
+  "appName": "Athena Surveillance",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}

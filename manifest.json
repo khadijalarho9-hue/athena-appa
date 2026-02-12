@@ -1,0 +1,35 @@
+
+{
+  "name": "Athena Surveillance",
+  "short_name": "Athena",
+  "description": "Système de contrôle d'accès sécurisé pour sites sensibles",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#1a2a44",
+  "theme_color": "#1a2a44",
+  "orientation": "portrait",
+  "scope": "./",
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ]
+}
